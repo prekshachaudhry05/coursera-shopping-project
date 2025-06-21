@@ -7,12 +7,12 @@ const basePath = import.meta.env.BASE_URL + 'plants/';
 
 // Six plants grouped into 3 categories: Succulents, Ferns, Flowering
 const plants = [
-  { id: 1, name: 'Aloe Vera', category: 'Succulent', price: 10, img: `${basePath}aloe.jpg` },
-  { id: 2, name: 'Snake Plant', category: 'Succulent', price: 9, img: `${basePath}snake.jpg` },
-  { id: 3, name: 'Boston Fern', category: 'Fern', price: 12, img: `${basePath}fern.jpeg` },
-  { id: 4, name: 'Maidenhair Fern', category: 'Fern', price: 11, img: `${basePath}Maidenhair.jpeg` },
-  { id: 5, name: 'Peace Lily', category: 'Flowering', price: 15, img: `${basePath}lily.jpg` },
-  { id: 6, name: 'Anthurium', category: 'Flowering', price: 13, img: `${basePath}anthurium.jpeg` }
+  { id: 1, name: 'Aloe Vera', category: 'Succulent', price: 10, img: `${import.meta.env.BASE_URL}plants/aloe.jpg` },
+  { id: 2, name: 'Snake Plant', category: 'Succulent', price: 9, img: `${import.meta.env.BASE_URL}plants/snake.jpg` },
+  { id: 3, name: 'Boston Fern', category: 'Fern', price: 12, img: `${import.meta.env.BASE_URL}plants/fern.jpg` },
+  { id: 4, name: 'Maidenhair Fern', category: 'Fern', price: 11, img: `${import.meta.env.BASE_URL}plants/Maidenhair.jpeg` },
+  { id: 5, name: 'Peace Lily', category: 'Flowering', price: 15, img: `${import.meta.env.BASE_URL}plants/lily.jpg` },
+  { id: 6, name: 'Anthurium', category: 'Flowering', price: 13, img: `${import.meta.env.BASE_URL}plants/anthurium.jpeg` }
 ];
 
 // Group by category
