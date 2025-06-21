@@ -5,7 +5,7 @@ function LandingPage() {
   return (
     <div
       style={{
-        backgroundImage: "url('./assets/bg.jpg')", 
+        backgroundImage: `url(${import.meta.env.BASE_URL}bg.jpg)`,  // ✅ Correct path
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         height: '100vh',
@@ -17,8 +17,8 @@ function LandingPage() {
         justifyContent: 'center'
       }}
     >
-      <h1 style={{ fontSize: '3rem', marginBottom: '1rem', color:'black'}}>GreenGlow Plants</h1>
-      <p style={{ fontSize: '1.2rem', maxWidth: '600px', margin: '0 auto 2rem', color:'black'}}>
+      <h1 style={{ fontSize: '3rem', marginBottom: '1rem', color: 'black' }}>GreenGlow Plants</h1>
+      <p style={{ fontSize: '1.2rem', maxWidth: '600px', margin: '0 auto 2rem', color: 'black' }}>
         Welcome to GreenGlow — your one-stop destination for lush indoor houseplants
         that brighten your space and boost your mood. We deliver freshness directly to your home.
       </p>

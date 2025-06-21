@@ -20,7 +20,7 @@ function App() {
 
 const styles = {
   background: {
-    backgroundImage: "url('./assets/bg.jpg')",
+    backgroundImage: `url(${import.meta.env.BASE_URL}bg.jpg)`, 
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundAttachment: 'fixed',
