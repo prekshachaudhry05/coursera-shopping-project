@@ -5,7 +5,7 @@ function LandingPage() {
   return (
     <div
       style={{
-        backgroundImage: "url('/bg.jpg')", 
+        backgroundImage: "url('./assets/bg.jpg')", 
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         height: '100vh',
