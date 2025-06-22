@@ -5,7 +5,7 @@ function LandingPage() {
   return (
     <div
       style={{
-        backgroundImage: `url(${import.meta.env.BASE_URL}bg.jpg)`,  // ✅ Correct path
+        backgroundImage: `url(${import.meta.env.BASE_URL}bg.jpg)`,  
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         height: '100vh',
