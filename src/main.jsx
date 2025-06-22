@@ -5,6 +5,8 @@ import { Provider } from 'react-redux';
 import store from './redux/store'; // ✅ make sure this is correct
 import { BrowserRouter } from 'react-router-dom';
 import './index.css';
+import './App.css';
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

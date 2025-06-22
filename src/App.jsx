@@ -4,6 +4,8 @@ import LandingPage from './pages/LandingPage.jsx';
 import ProductPage from './pages/ProductPage.jsx';
 import CartPage from './pages/CartPage.jsx';
 import Header from './components/Header.jsx';
+import './index.css';
+import './App.css';
 
 function App() {
   return (
